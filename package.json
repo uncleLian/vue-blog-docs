@@ -10,9 +10,8 @@
     "author": "uncleLian",
     "license": "ISC",
     "devDependencies": {
-        "vuepress": "^0.14.10"
-    },
-    "dependencies": {
+        "vuepress": "^0.14.10",
         "webpack-dev-middleware": "^3.6.0"
-    }
+    },
+    "dependencies": {}
 }

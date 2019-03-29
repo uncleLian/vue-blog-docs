@@ -1,7 +1,7 @@
 ---
 home: true
-heroImage: ''
-actionText: Get Started →
+heroImage: '/logo.png'
+actionText: 快速上手 →
 actionLink: /guide/
 features:
 - title: Simplicity First
@@ -10,18 +10,18 @@ features:
   details: Enjoy the dev experience of Vue + webpack, use Vue components in markdown, and develop custom themes with Vue.
 - title: Performant
   details: VuePress generates pre-rendered static HTML for each page, and runs as an SPA once a page is loaded.
-footer: MIT Licensed | Copyright © 2018-present Evan You
+footer: MIT Licensed | Copyright © 2018-present uncleLian
 ---
 
 ## Getting Started
 
 ```bash
-# clone the project
+# 克隆
 git clone https://github.com/uncleLian/vue-blog
 
-# install dependency
+# 安装依赖
 npm install
 
-# develop
+# 运行
 npm run dev
 ```

@@ -1,8 +1,9 @@
 # 介绍
 
 [![image](https://img.shields.io/badge/vue-2.6.8-brightgreen.svg)](https://github.com/vuejs/vue)
-[![image](https://img.shields.io/badge/element--ui-2.6.1-9cf.svg)](https://github.com/ElemeFE/element)
-[![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/uncleLian/vue-blog/blob/master/LICENSE)
+[![image](https://img.shields.io/badge/vue--router-3.0.2-brightgreen.svg)](https://github.com/vuejs/vue-router)
+[![image](https://img.shields.io/badge/vuex-3.1.0-brightgreen.svg)](https://github.com/vuejs/vuex)
+[![image](https://img.shields.io/badge/element--ui-2.7.0-9cf.svg)](https://github.com/ElemeFE/element)
 [![GitHub release](https://img.shields.io/github/release/uncleLian/vue-blog.svg)](https://github.com/uncleLian/vue-blog/releases)
 [![GitHub stars](https://img.shields.io/github/stars/uncleLian/vue-blog.svg?style=social&label=Stars)](https://github.com/uncleLian/vue-blog)
 
@@ -123,7 +124,7 @@ npm run dev
 
 ## 贡献
 
-本文档 [vue-blog-document]() 基于 [vuepress](https://github.com/vuejs/vuepress) 开发，有任何错误和建议可以到该项目反馈。
+本文档 [vue-blog-docs]() 基于 [vuepress](https://github.com/vuejs/vuepress) 开发，有任何错误和建议可以到该项目反馈。
 
 [vue-blog](https://github.com/uncleLian/vue-blog) 持续迭代中，逐步沉淀和总结出中后台产品的最佳实践，欢迎[参与](https://github.com/uncleLian/vue-blog/pulls)和[反馈](https://github.com/uncleLian/vue-blog/issues)。
 

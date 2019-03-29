@@ -1,6 +1,6 @@
 # 样式
 
-本项目使用的css预处理器是 [stylus](https://github.com/stylus/stylus)，有其他预处理器的需求可以自行安装相应loader。
+本项目使用的css预处理器是 [stylus](https://github.com/stylus/stylus)，其他预处理器可以自行安装相应loader。
 
 ## 重置样式
 浏览器的对于 html 的默认样式都有各自的实现，所以我们一般开发前都需要 `reset` 样式，以保证在不同的浏览器上有一致的体验，本项目使用的是 [normalize.css](https://github.com/necolas/normalize.css)。
