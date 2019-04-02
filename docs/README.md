@@ -4,12 +4,13 @@ heroImage: '/logo.png'
 actionText: 快速上手 →
 actionLink: /guide/
 features:
-- title: Simplicity First
-  details: Minimal setup with markdown-centered project structure helps you focus on writing.
-- title: Vue-Powered
-  details: Enjoy the dev experience of Vue + webpack, use Vue components in markdown, and develop custom themes with Vue.
-- title: Performant
-  details: VuePress generates pre-rendered static HTML for each page, and runs as an SPA once a page is loaded.
+
+- title: 主流技术栈
+  details: vue + vue-router + vuex + element + axios 等主流技术栈。
+- title: 丰富功能
+  details: 集成了丰富的中后台产品功能，权限验证、富文本编辑器、Excel、国际化等。
+- title: 高效开发
+  details: 配备基础模板供开发者进行二次开发，文档友好，简单易上手。
 footer: MIT Licensed | Copyright © 2018-present uncleLian
 ---
 

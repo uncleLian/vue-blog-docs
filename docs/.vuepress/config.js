@@ -4,7 +4,7 @@ const title = require('../../package.json').name
 
 module.exports = {
     title: title,
-    description: '前端管理后台集成方案',
+    description: '前端管理后台解决方案',
     base: `/${require('../../package.json').name}/`,
     dest: 'dist',
     head: [

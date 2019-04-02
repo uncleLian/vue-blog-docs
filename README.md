@@ -1,6 +1,6 @@
 # vue-blog-docs
 
-> [vue-blog](https://github.com/uncleLian/vue-blog) documentation
+[vue-blog](https://github.com/uncleLian/vue-blog) documentation
 
 [在线访问](http://liansixin.win/vue-blog-docs)
 

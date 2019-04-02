@@ -25,6 +25,7 @@
     - 登录/注销
     - 权限验证
         - 页面级权限
+        - 按钮级权限
     - 多环境
         - dev
         - sit
@@ -35,7 +36,7 @@
         - 401
         - 404
         - 错误日志
-    - 细节处理
+    - 其他处理
         - axios封装
         - cache封装
         - 页面平滑过渡
@@ -64,7 +65,7 @@
 ```
 
 ## 前序准备
-你的本地环境需要安装 [Node](https://nodejs.org/en/) 和 [Git](https://git-scm.com/)，本项目技术栈基于 [ES2015+](http://es6.ruanyifeng.com/)、[vue](https://cn.vuejs.org)、[vue-router](https://router.vuejs.org/zh-cn/)、[vuex](https://vuex.vuejs.org/zh-cn/)、[axios](https://github.com/axios/axios) 和 [element-ui](http://element-cn.eleme.io/#/zh-CN/component/installation)，所有的请求数据都使用[mock.js](http://mockjs.com/)模拟，提前了解和学习这些知识会对使用本项目有很大的帮助。
+你的本地环境需要安装 [Node](https://nodejs.org/en/) 和 [Git](https://git-scm.com/)，本项目技术栈基于 [ES2015+](http://es6.ruanyifeng.com/)、[vue](https://cn.vuejs.org)、[vue-router](https://router.vuejs.org/zh-cn/)、[vuex](https://vuex.vuejs.org/zh-cn/)、[axios](https://github.com/axios/axios) 和 [element-ui](http://element-cn.eleme.io/#/zh-CN/component/installation)，所有的请求数据都使用 [mock.js](http://mockjs.com/) 模拟，提前了解和学习这些知识会对使用本项目有很大的帮助。
 
 ::: tip 版本要求
 [Node](https://nodejs.org/en/)推荐 8.11.0+或稳定版，你可以使用 [nvm](https://github.com/creationix/nvm) 或 [nvm-windows](https://github.com/coreybutler/nvm-windows) 在同一台电脑中管理多个 Node 版本。
