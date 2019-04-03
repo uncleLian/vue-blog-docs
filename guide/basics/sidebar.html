@@ -7,7 +7,7 @@
     <meta name="description" content="前端管理后台解决方案">
     <link rel="icon" href="/vue-blog-docs/favicon.ico">
     
-    <link rel="preload" href="/vue-blog-docs/assets/css/0.styles.30871c2c.css" as="style"><link rel="preload" href="/vue-blog-docs/assets/js/app.a9d495e7.js" as="script"><link rel="preload" href="/vue-blog-docs/assets/js/15.2f9326c8.js" as="script"><link rel="prefetch" href="/vue-blog-docs/assets/js/10.b6861a9c.js"><link rel="prefetch" href="/vue-blog-docs/assets/js/11.2614e3b8.js"><link rel="prefetch" href="/vue-blog-docs/assets/js/12.53b312db.js"><link rel="prefetch" href="/vue-blog-docs/assets/js/13.0ff18514.js"><link rel="prefetch" href="/vue-blog-docs/assets/js/14.3d1eeb51.js"><link rel="prefetch" href="/vue-blog-docs/assets/js/16.89e81a5e.js"><link rel="prefetch" href="/vue-blog-docs/assets/js/17.e5531daf.js"><link rel="prefetch" href="/vue-blog-docs/assets/js/18.aad36138.js"><link rel="prefetch" href="/vue-blog-docs/assets/js/2.b37273cf.js"><link rel="prefetch" href="/vue-blog-docs/assets/js/3.611964ea.js"><link rel="prefetch" href="/vue-blog-docs/assets/js/4.c210ef42.js"><link rel="prefetch" href="/vue-blog-docs/assets/js/5.be8e8a02.js"><link rel="prefetch" href="/vue-blog-docs/assets/js/6.db6659d4.js"><link rel="prefetch" href="/vue-blog-docs/assets/js/7.baf1f298.js"><link rel="prefetch" href="/vue-blog-docs/assets/js/8.94f8fbe1.js"><link rel="prefetch" href="/vue-blog-docs/assets/js/9.c2370eca.js">
+    <link rel="preload" href="/vue-blog-docs/assets/css/0.styles.30871c2c.css" as="style"><link rel="preload" href="/vue-blog-docs/assets/js/app.30e2a391.js" as="script"><link rel="preload" href="/vue-blog-docs/assets/js/15.b0991f1a.js" as="script"><link rel="prefetch" href="/vue-blog-docs/assets/js/10.b6861a9c.js"><link rel="prefetch" href="/vue-blog-docs/assets/js/11.2614e3b8.js"><link rel="prefetch" href="/vue-blog-docs/assets/js/12.53b312db.js"><link rel="prefetch" href="/vue-blog-docs/assets/js/13.0ff18514.js"><link rel="prefetch" href="/vue-blog-docs/assets/js/14.b04cc12d.js"><link rel="prefetch" href="/vue-blog-docs/assets/js/16.89e81a5e.js"><link rel="prefetch" href="/vue-blog-docs/assets/js/17.e5531daf.js"><link rel="prefetch" href="/vue-blog-docs/assets/js/18.aad36138.js"><link rel="prefetch" href="/vue-blog-docs/assets/js/2.b37273cf.js"><link rel="prefetch" href="/vue-blog-docs/assets/js/3.611964ea.js"><link rel="prefetch" href="/vue-blog-docs/assets/js/4.d6c8d142.js"><link rel="prefetch" href="/vue-blog-docs/assets/js/5.be8e8a02.js"><link rel="prefetch" href="/vue-blog-docs/assets/js/6.db6659d4.js"><link rel="prefetch" href="/vue-blog-docs/assets/js/7.baf1f298.js"><link rel="prefetch" href="/vue-blog-docs/assets/js/8.94f8fbe1.js"><link rel="prefetch" href="/vue-blog-docs/assets/js/9.c2370eca.js">
     <link rel="stylesheet" href="/vue-blog-docs/assets/css/0.styles.30871c2c.css">
   </head>
   <body>
@@ -95,16 +95,18 @@ meta<span class="token punctuation">:</span> <span class="token punctuation">{</
 <span class="token punctuation">}</span>
 </code></pre></div><div class="tip custom-block"><p class="custom-block-title">setRedirect 函数</p> <p>该函数会对含有children配置的路由自动设置重定向的功能，我们只需配置重定向的索引 redirectIndex 即可，大大减轻手动配置重定向路径的工作</p></div> <h2 id="外链配置"><a href="#外链配置" aria-hidden="true" class="header-anchor">#</a> 外链配置</h2> <p><a href>对应效果</a></p> <p>path 开头为 <code>http || mailto: || tel:</code> 则判断为外链，具体规则 <code>@/layout/Sidebar/sideLink.vue</code></p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token punctuation">{</span>
     name<span class="token punctuation">:</span> <span class="token string">'documents'</span><span class="token punctuation">,</span>
-    path<span class="token punctuation">:</span> <span class="token string">'http://liansixin.win/vue-blog-book/'</span><span class="token punctuation">,</span>
+    path<span class="token punctuation">:</span> <span class="token string">'https://unclelian.github.io/vue-blog-docs'</span><span class="token punctuation">,</span>
     meta<span class="token punctuation">:</span> <span class="token punctuation">{</span>
         icon<span class="token punctuation">:</span> <span class="token string">'documentation'</span>
     <span class="token punctuation">}</span>
 <span class="token punctuation">}</span>
-</code></pre></div><h2 id="样式配置"><a href="#样式配置" aria-hidden="true" class="header-anchor">#</a> 样式配置</h2> <p>如果你想修改侧边栏的宽度、背景色、文本色等，你可以到 <code>@/assets/css/Sidebar/index</code> 修改样式变量。</p> <div class="language-html extra-class"><pre class="language-html"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>style</span> <span class="token attr-name">lang</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">'</span>stylus<span class="token punctuation">'</span></span> <span class="token attr-name">module</span><span class="token punctuation">&gt;</span></span>
-$menuWidth = 180px;
-$menuBg = #304156;
-$menuText = #bfcbd9;
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>style</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div><h2 id="样式配置"><a href="#样式配置" aria-hidden="true" class="header-anchor">#</a> 样式配置</h2> <p>如果你想修改侧边栏的宽度、背景色、文本色等，你可以到 <code>@/assets/css/Sidebar/index</code> 修改样式变量。</p> <div class="language-html extra-class"><pre class="language-html"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>style</span> <span class="token attr-name">module</span><span class="token punctuation">&gt;</span></span><span class="token style"><span class="token language-css">
+<span class="token selector">:export</span> <span class="token punctuation">{</span>
+    <span class="token property">menuBg</span><span class="token punctuation">:</span> #304156<span class="token punctuation">;</span>
+    <span class="token property">menuText</span><span class="token punctuation">:</span> #f5f5f5<span class="token punctuation">;</span>
+    <span class="token property">menuWidth</span><span class="token punctuation">:</span> 180px<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>style</span><span class="token punctuation">&gt;</span></span>
 </code></pre></div></div> <div class="page-edit"><div class="edit-link"><a href="https://github.com/uncleLian/vueBlog-docs/edit/master/docs/guide/basics/sidebar.md" target="_blank" rel="noopener noreferrer">Edit this page</a> <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></div> <!----></div> <div class="page-nav"><p class="inner"><span class="prev">
         ←
         <a href="/vue-blog-docs/guide/" class="prev router-link-active">
@@ -114,6 +116,6 @@ $menuText = #bfcbd9;
         </a>
         →
       </span></p></div> </div> <!----></div></div>
-    <script src="/vue-blog-docs/assets/js/app.a9d495e7.js" defer></script><script src="/vue-blog-docs/assets/js/15.2f9326c8.js" defer></script>
+    <script src="/vue-blog-docs/assets/js/app.30e2a391.js" defer></script><script src="/vue-blog-docs/assets/js/15.b0991f1a.js" defer></script>
   </body>
 </html>
