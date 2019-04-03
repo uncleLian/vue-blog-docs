@@ -90,7 +90,7 @@ npm run dev
 ```
 启动完成后会自动打开浏览器访问 [http://localhost:8002](http://localhost:8002)，看到登录页面或主页面就代表操作成功了。
 
-![](http://poci6sbqi.bkt.clouddn.com/vue-blog.png)
+![](http://poci6sbqi.bkt.clouddn.com/vue-blog-index.png)
 
 ## 目录结构
 本项目已搭建了一个完整的开发目录结构，提供各类功能，可自行调整。

@@ -11,3 +11,4 @@
 - [tinymce](https://github.com/tinymce/tinymce)（富文本编辑器）
 - [tui-editor](https://github.com/nhnent/tui.editor)（Markdown编辑器）
 - [screenfull](https://github.com/sindresorhus/screenfull.js)（全屏）
+- [Sortable](https://github.com/SortableJS/Sortable)、[Vue.Draggable](https://github.com/SortableJS/Vue.Draggable)（拖拽）
