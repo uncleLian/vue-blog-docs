@@ -3,12 +3,11 @@
 [![image](https://img.shields.io/badge/vue-2.6.8-brightgreen.svg)](https://github.com/vuejs/vue)
 [![image](https://img.shields.io/badge/vue--router-3.0.2-brightgreen.svg)](https://github.com/vuejs/vue-router)
 [![image](https://img.shields.io/badge/vuex-3.1.0-brightgreen.svg)](https://github.com/vuejs/vuex)
+[![image](https://img.shields.io/badge/vue--cli-3.x-brightgreen.svg)](https://cli.vuejs.org/zh/)
 [![image](https://img.shields.io/badge/element--ui-2.7.0-9cf.svg)](https://github.com/ElemeFE/element)
 [![GitHub release](https://img.shields.io/github/release/uncleLian/vue-blog.svg)](https://github.com/uncleLian/vue-blog/releases)
-[![GitHub stars](https://img.shields.io/github/stars/uncleLian/vue-blog.svg?style=social&label=Stars)](https://github.com/uncleLian/vue-blog)
 
-
-[vue-blog](https://github.com/uncleLian/vue-blog) 是基于 Vue2.x，配合使用 Element UI 组件库的一个前端管理后台集成解决方案。它使用了目前主流的技术栈，提供了丰富的功能组件，它可以帮助你快速搭建企业级中后台产品原型。
+[vue-blog](https://github.com/uncleLian/vue-blog) 是基于 [vue.js](https://github.com/vuejs/vue)，配合使用 [element-ui](https://github.com/ElemeFE/element) 组件库的一个前端管理后台集成解决方案。它使用了目前主流的技术栈，提供了丰富的功能组件，它可以帮助你快速搭建企业级中后台产品原型。
 
 ::: tip 建议
 本项目的定位是后台集成方案，不适合当基础模板来进行二次开发。你可以把它当做工具集，在基础模板上进行开发时，想要什么功能或者组件就去复制过来。
@@ -28,8 +27,8 @@
         - 按钮级权限
     - 多环境
         - dev
-        - sit
         - prod
+        - stage
     - 动态侧边栏
     - 动态面包屑
     - 错误处理
@@ -61,6 +60,10 @@
         - 导入Excel
         - 导出Excel
         - 导出Zip
+    - 拖拽功能
+        - 拖拽弹框
+        - 拖拽表格
+        - 拖拽列表
 
 ```
 
@@ -90,7 +93,7 @@ npm run dev
 ```
 启动完成后会自动打开浏览器访问 [http://localhost:8002](http://localhost:8002)，看到登录页面或主页面就代表操作成功了。
 
-![](http://poci6sbqi.bkt.clouddn.com/vue-blog-index.png)
+![](http://poci6sbqi.bkt.clouddn.com/vue-blog.jpg)
 
 ## 目录结构
 本项目已搭建了一个完整的开发目录结构，提供各类功能，可自行调整。
@@ -116,7 +119,7 @@ npm run dev
 │   └── main.js                // 入口文件、初始化资源、组件等
 ├── .env.development           // 开发环境配置
 ├── .env.production            // 生成环境配置
-├── .env.sit                   // 测试环境配置
+├── .env.stage                   // 测试环境配置
 ├── .gitignore                 // git 忽略项
 ├── babel.config.js            // babel-loader 配置(vue-jsx)
 ├── package.json               // 依赖、eslint等

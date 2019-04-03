@@ -84,7 +84,7 @@ path 开头为 `http || mailto: || tel:` 则判断为外链，具体规则 `@/la
 ```js
 {
     name: 'documents',
-    path: 'http://liansixin.win/vue-blog-book/',
+    path: 'https://unclelian.github.io/vue-blog-docs',
     meta: {
         icon: 'documentation'
     }
@@ -94,9 +94,11 @@ path 开头为 `http || mailto: || tel:` 则判断为外链，具体规则 `@/la
 ## 样式配置
 如果你想修改侧边栏的宽度、背景色、文本色等，你可以到 `@/assets/css/Sidebar/index` 修改样式变量。
 ```html
-<style lang='stylus' module>
-$menuWidth = 180px;
-$menuBg = #304156;
-$menuText = #bfcbd9;
-<style>
+<style module>
+:export {
+    menuBg: #304156;
+    menuText: #f5f5f5;
+    menuWidth: 180px;
+}
+</style>
 ```

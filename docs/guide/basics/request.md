@@ -15,8 +15,7 @@
 ```
 - /api
     - login.js
-    - article.js
-    - table.js
+    - list.js
     ...
 ```
 
